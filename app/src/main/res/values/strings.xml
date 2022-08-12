@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CCValidation</string>
+    <string name="banco_text">Banco</string>
+    <string name="vence_text">Vence:</string>
+    <string name="fecha">12/27</string>
+    <string name="numero_tarjeta">**** **** **** 0011</string>
+    <string name="btn_text">Escanear tarjeta</string>
+</resources>
