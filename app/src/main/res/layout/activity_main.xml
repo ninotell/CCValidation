@@ -10,13 +10,12 @@
         android:id="@+id/textViewCheck"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
         android:text="Ingrese numero de tarjeta"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardView"
-        app:layout_constraintVertical_bias="0.17" />
+        app:layout_constraintTop_toBottomOf="@+id/cardView" />
 
     <EditText
         android:id="@+id/CCNumber"
@@ -26,24 +25,12 @@
         android:ems="10"
         android:inputType="number"
         android:maxLength="16"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewCheck" />
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/checkButton"
-        android:layout_width="180dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="84dp"
-        android:onClick="check"
-        android:textColor="@color/white"
-        android:background="@drawable/btn_corners"
-        android:text="CHECK"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/CCNumber" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewCheck"
+        app:layout_constraintVertical_bias="0.206" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
